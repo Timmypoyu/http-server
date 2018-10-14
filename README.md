@@ -5,7 +5,7 @@ This project creates a static and a dynamic web server using the socket package 
 - It will only support the GET method.  If a browser sends other
   methods (POST, HEAD, PUT, for example), the server responds with the
   status code 501.  Here is a possible response: HTTP/1.0 501 Not Implemented
-  <html><body><h1>501 Not Implemented</h1></body></html>
+  501 Not Implemented
   Note that the server adds a little HTML body for the status code and
   the message.  Without this, the browser will display a blank page.
   This should be done for all status codes except 200.
